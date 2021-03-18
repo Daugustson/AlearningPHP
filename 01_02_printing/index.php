@@ -11,5 +11,14 @@
 /* We prefer to use echo. 
     print is a little slower.
 */
-  print 'Hello World!'; 
+  print 'Hello World!';
+
+  
+?>
+<br>
+
+<?php
+define('VERSION', 1.1);
+echo VERSION;
+  
 ?>
