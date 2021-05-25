@@ -46,3 +46,41 @@ $home_towns5 = $home_towns;
 print_r( $home_towns5 );
 
 
+$key1 = array_search('Los Alamos, NM',array_column( $home_towns1, 'Petter' ));
+
+echo $key1;
+print_r( $key1 );
+
+
+
+$userdb=Array
+(
+    (0) => Array
+        (
+            'uid' => '100',
+            'name' => 'Sandra Shush',
+            'url' => 'urlof100'
+        ),
+
+    (1) => Array
+        (
+             'uid' => '5465',
+             'name' => 'Stefanie Mcmohn',
+            'pic_square' => 'urlof100'
+        ),
+
+    (2) => Array
+        (
+             'uid' => '40489',
+            'name' => 'Michael',
+            'pic_square' => 'urlof40489'
+        )
+);
+
+//simply u can use this
+
+$key = array_search(5465, array_column($userdb, 'uid'));
+echo '<br>';
+echo '<br>';
+echo $key;
+?>
