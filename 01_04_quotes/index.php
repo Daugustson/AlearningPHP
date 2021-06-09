@@ -3,7 +3,7 @@
     echo "Hello, $name";
     ?>
     <br>
-    <?php
+<?php
     echo 'Hello, $name';
     ?>
     <br>
@@ -22,7 +22,7 @@
     <br>
     <?php
     
-    echo "Joe's Nickname in HS was \"Joey Calzone\"";
+    echo "Joe's Nickname in HS was \"Joey Calzone\".";
     
     
     ?>
