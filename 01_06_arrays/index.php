@@ -6,6 +6,10 @@ $newColor = 'pink';
 $colors = array( 'red', 'blue', 'green' );
 
 print_r( $colors );
+echo '<pre>';
+
+print_r($colors);
+echo '</pre>';
 
 echo '<p>' . $colors[1] . '</p>';
 
@@ -45,9 +49,9 @@ echo '<br>';
 
 $home_towns5 = $home_towns;
                   
-                  
+ echo'<pre>';                 
 print_r( $home_towns5 );
-
+echo'</pre>';
 
 $key1 = array_search('Los Alamos, NM',array_column( $home_towns1, 'Petter' ));
 
@@ -88,7 +92,7 @@ echo '<br>';
 echo $key;
 
 echo '<br>';
-$values = array(0, 0.0, false, '');
+$values = array(0, 0.0, false, 'Hi');
 echo '<pre>';
 var_dump($values);
 echo '</pre>';
