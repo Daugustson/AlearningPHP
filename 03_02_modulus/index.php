@@ -6,7 +6,7 @@ if( $a % 2 == 0 ) {
     echo "<p>$a is odd.</p>";
 }
 
-$a = 15;
+$a = 16;
 $b = 5;
 
 echo ( $a % $b == 0 ) ? "<p>$b is a factor of $a</p>" : "<p>$b is not a factor of $a</p>";
