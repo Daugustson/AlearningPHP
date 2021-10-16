@@ -14,7 +14,15 @@ if ( 10 < 1 ) {
 $i = 10;
 
 if ( 11 == $i ) {
-    echo '<h3>Welcome back, user!</h3>';
+    echo '<h3>They are equal!</h3>';
+} else {
+    echo '<h3><h3>They are not equal!';
+}
+
+$is_logged_in = true;
+
+if ($is_logged_in) {
+	echo '<h3>Welcome back, user!</h3>';
 } else {
     echo '<h3>Welcome to the site!</h3>';
 }
