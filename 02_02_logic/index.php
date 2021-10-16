@@ -9,10 +9,15 @@ $f = $a || $d;
 
 $logic = array( $a, $b, $c, $d, $e, $f );
 
+
+echo '<pre>';
+print_r( $logic ); 
+echo '</pre>';
+echo '<br>';
 echo '<pre>';
 var_dump( $logic ); 
 echo '</pre>';
 
-$c = $a and $b;
+$c = $a && $b;
 
 var_dump( $c );
