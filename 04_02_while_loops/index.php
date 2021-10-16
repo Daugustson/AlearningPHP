@@ -1,12 +1,16 @@
 <?php
-$i = 10;
+$p = 2;
 
-do {
+/*do {
     echo "<p>$i</p>";
     $i++;
 } while ( $i < 10 );
-
-while( $i < 10 ) {
-    echo "<p>$i</p>";
-    $i++;
+echo "<br>";
+*/
+while( $p < 10 ) {
+    echo "<p>$p</p>";
+    $p++;
 }
+//$var1 = "5";
+
+
