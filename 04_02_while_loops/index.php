@@ -1,5 +1,5 @@
 <?php
-$p = 2;
+$p = 1;
 
 /*do {
     echo "<p>$i</p>";
@@ -7,10 +7,12 @@ $p = 2;
 } while ( $i < 10 );
 echo "<br>";
 */
-while( $p < 10 ) {
-    echo "<p>$p</p>";
+while( $p <= 10 ) {
+    echo "<p>$p. this one</p>";
     $p++;
+    echo "<p>$p + 1</p>";
 }
+//echo "<p>$p</p>";
 //$var1 = "5";
 
 
