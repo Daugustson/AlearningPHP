@@ -6,8 +6,8 @@ foreach( $colors as $color ) {
 }
 
 $home_towns = array( 
-    'Dayn' => 'Middletown, NY',
-    'Kristen' => 'West Chester',
+    'Dayn' => 'Los Alamos, NM',
+    'Kristen' => 'Colorado Springs, Co',
     'Dan' => 'Exton, PA',
     'Mark' => 'Grand Rapids, MI',
 );
